@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS employees (
 );
 
 -- Add a new column to an existing table
-ALTER TABLE employees ADD COLUMN email VARCHAR(100);
+--ALTER TABLE employees ADD COLUMN email VARCHAR(100);
 
 
 --Insert some data in the table
