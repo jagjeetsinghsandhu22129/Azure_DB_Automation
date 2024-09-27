@@ -15,7 +15,7 @@
 -- Insert data into the employees table
 INSERT INTO jsfirstdb.employees (Name, Department, Hire_date, email) 
 VALUES 
-    ('John', 'Marketing', '2021-06-15', 'john@example.com'),
-    ('Rahul', 'Engineering', '2020-09-25', 'rahul@example.com'),
-    ('Mandeep Singh', 'Finance', '2019-03-12', 'mandeep.s@example.com'),
-    ('Mukesh Kumar', 'Human Resources', '2022-01-10', 'mukesh.k@example.com');
+    --('John', 'Marketing', '2021-06-15', 'john@example.com'),
+    ('Rahul', 'Engineering', '2020-09-25', 'rahul@example.com')--,
+   -- ('Mandeep Singh', 'Finance', '2019-03-12', 'mandeep.s@example.com'),
+    --('Mukesh Kumar', 'Human Resources', '2022-01-10', 'mukesh.k@example.com');
