@@ -25,9 +25,9 @@ jobs:
 
     - name: Run SQL Scripts on Azure MySQL
       env:
-        MYSQL_HOST: ${{ secrets.MYSQL_HOST }}
-        MYSQL_USER: ${{ secrets.MYSQL_USER }}
-        MYSQL_PASSWORD: ${{ secrets.MYSQL_PASSWORD }}
-        MYSQL_DB: ${{ secrets.MYSQL_DB }}
+        MYSQL_HOST: ${{ secrets.DB_HOST }}
+        MYSQL_USER: ${{ secrets.DB_ADMIN_USER }}
+        MYSQL_PASSWORD: ${{ secrets.DB_PASSWORD }}
+        MYSQL_DB: ${{ secrets.DB_NAME_2 }}
       run: |
         python execute_sql_script.py
